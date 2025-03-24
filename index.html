@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina WEB</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="imagen/Logoji.png"></a>
+        <h1>Mi empresa</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="Index.html">INICIO</a></li>
+                <li><a href="Quienes somos ji.html">¿Quiénes Somos?</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Sección de contenido principal-->
+    <main>
+        <!-- Sección de la empresa -->
+        <section id="empresa" class="columnas">
+            <div class="izquierda">
+                <img src="imagen/inicio.jpg"width="500" height="300" alt="quienes_somos">
+            </div>
+            <div class="derecha">
+                <h2>Mi empresa</h2>
+                <p>Nuestra misión es llevar el auténtico sabor y la calidad del chile habanero mexicano a los hogares y negocios de todo el mundo. Nos comprometemos a cultivar y ofrecer productos frescos y de alta calidad, promoviendo prácticas agrícolas sostenibles en colaboración de todo el alumnado del Emsad 29.</p>    
+            </div>
+        </section>
+
+        <!-- Sección de Promociones -->
+        <section id="promocion">
+            <h2>PROMOCIONES</h2>
+            <div class="catalogo">
+                <!-- promocion 1 -->
+                <div class="producto">
+                    <img src="imagen/especial.png" alt="Producto 1">
+                    <div class="producto-info">
+                        <h2>Habanero rebanado</h2>
+                        <p>El habanero rebanado, conocido por su picor intenso, se presenta como rodajas delgadas de este chile pequeño y de forma cónica, elaborado con habanero rojo y verde
+<br>
+Precio: $200
+<br>
+Contenido: 225g.</p>
+                    </div>
+                </div>
+                <!-- promocion 2 -->
+                <div class="producto">
+                    <img src="imagen/salsap.png" alt="Producto 2">
+                    <div class="producto-info">
+                        <h2>Salsa picante artesanal	</h2>
+                        <p>Está elaborada con chiles habaneros de alta calidad, ofreciendo un sabor auténtico y un nivel de picante intenso. Es ideal para acompañar una variedad de comidas y botanas, añadiendo un toque picoso y distintivo.
+<br>
+Precio: $20
+<br>
+Contenido: 150ml</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sección de Servicios y Precios -->
+        <section id="servicios" class="columnas">
+            <div class="izquierda">
+                <h2>Servicios y Precios</h2>
+                <ul>
+                    <li>Chile habanero fresco: $12</li>
+                    <li>Chile habanero deshidratado: $15</li>
+                    <li>Salsa picante artesanal: $20</li>
+                    <li>Semilla de habanero para cultivo: desde $30</li>
+                    <!-- Agregar más servicios según sea necesario -->
+                </ul>
+            </div>
+            <div class="derecha">
+                <img src="imagen/serviciod.jpeg" alt="Servicio">
+            </div>
+        </section>
+
+        <!-- Sección de Marcas -->
+        <section id="marcas">
+            <h2>Nuestras Marcas</h2>
+            <div class="brands">
+                <img src="imagen/marca 1.jpeg" alt="Marca 1">
+                <img src="imagen/marca 2.jpeg" alt="Marca 2">
+                <img src="imagen/marca 3.jpeg" alt="Marca 3">
+                <img src="imagen/marca 4.jpeg" alt="Marca 4">
+            </div>
+        </section>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2025 Mi empresa. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="#" target="_blank">Facebook</a> |
+            <a href="#" target="_blank">Twitter</a> |
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+        <p>Contacto: elhuertodelhabanero@gmail.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+      </script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <title>Catálogo de Productos</title>
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="imagen/Logoji.png"></a>
+        <h1>Mi empresa</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="Index.html">INICIO</a></li>
+                <li><a href="Quienes somos ji.html">¿Quiénes Somos?</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de contenido principal-->
+    <main>
+        <h1>Catálogo de Productos</h1>
+        <div class="catalogo">
+            <!-- Producto 1 -->
+            <div class="producto">
+                <img src="imagen/especial.png" alt="Producto 1">
+                <div class="producto-info">
+                    <h2>Habanero rebanado</h2>
+                    <p>El habanero, ingrediente lleno de sabor que mezcla picante con un proceso de conservación, potencia su estructura y frescuraG <br> Contenido: 225g.</p>
+                    <p class="precio">$200.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 2 -->
+            <div class="producto">
+                <img src="imagen/Salsap.png" alt="Producto 2">
+                <div class="producto-info">
+                    <h2>Producto 2</h2>
+                    <p>La salsa de chile habanero es una explosión de sabor y picante, elaborada con chiles habaneros frescos que aportan su intensidad característica. <br> Contenido:150ml</p>
+                    <p class="precio">$20.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 3 -->
+            <div class="producto">
+                <img src="imagen/fresco.jpeg" alt="Producto 3">
+                <div class="producto-info">
+                    <h2>Producto 3</h2>
+                    <p>El chile habanero fresco es un ingrediente vibrante y picante, conocido por su intenso sabor y aroma afrutado. <br> Contenido: 5pzas.</p>
+                    <p class="precio">$10.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 4 -->
+            <div class="producto">
+                <img src="imagen/deshi.jpeg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Habanero tatemado</h2>
+                    <p>El chile habanero tatemado es un ingrediente que destaca por su sabor ahumado y picante intenso. Al ser asado, desarrolla un perfil de sabor único. <br> Contenido: 5pzas.</p>
+                    <p class="precio">$15.00</p>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="producto">
+                <img src="imagen/verdc.png" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Salsa habanero verde</h2>
+                    <p>La salsa verde de habanero es una mezcla vibrante y picante que combina el sabor fresco de los tomates verdes con el toque audaz del chile habanero. <br> Contenido: 150ml</p>
+                    <p class="precio">$20.00</p>
+                </div>
+            </div>
+            <!-- Producto 6 -->
+            <div class="producto">
+                <img src="imagen/mado.jpeg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Habanero tatemado</h2>
+                    <p>La salsa verde tatemada es una deliciosa mezcla de tomatillos y chiles asados, que aporta un sabor ahumado y picante único. <br> Contenido: 150ml .</p>
+                    <p class="precio">$20.00</p>
+                </div>
+            </div>
+            <!-- Producto 7 -->
+            <div class="producto">
+                <img src="imagen/chili.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Chili habanero</h2>
+                    <p>El habanero curtido es una preparacion culinaria que consiste en conservar habaneros en vinagre o limón con cebolla y zanahoria para derles un sabor y textura únicos. <br>  Contenido: 150ml</p>
+                    <p class="precio">$15.00</p>
+                </div>
+            </div>
+            <!-- Producto 8 -->
+            <div class="producto">
+                <img src="imagen/semillan.jpeg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Semilla de habanero para cultivar</h2>
+                    <p>La semilla de chile habanero es el punto de partida para cultivar una de las variedades de chile más picantes y apreciadas. Estas semillas, pequeñas y de color café claro, son conocidas por su alta capacidad de germinación y su resistencia. <br> Contenido: 3g.</p>
+                    <p class="precio">$25.00</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2025 Mi empresa. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="#" target="_blank">Facebook</a> |
+            <a href="#" target="_blank">Twitter</a> |
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+        <p>Contacto: elhuertodelhabanero@gmail.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+    </script>
+</body>
+</html>
